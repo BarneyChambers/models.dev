@@ -1,0 +1,24 @@
+id = "code-standard"
+name = "Code Standard"
+status = "beta"
+release_date = "2026-03-01"
+last_updated = "2026-07-02"
+reasoning = false
+tool_call = true
+structured_output = true
+attachment = false
+
+[limit]
+context = 128000
+input = 120000
+output = 16000
+
+[cost]
+input = 0.0288
+output = 0.0288
+cache_read = 0.0288
+cache_write = 0.0288
+
+[modalities]
+input = ["text"]
+output = ["text"]
