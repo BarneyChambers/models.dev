@@ -1,0 +1,24 @@
+id = "code-max"
+name = "Code Max"
+status = "beta"
+release_date = "2026-03-01"
+last_updated = "2026-07-02"
+reasoning = true
+tool_call = true
+structured_output = true
+attachment = false
+
+[limit]
+context = 1000000
+input = 922000
+output = 128000
+
+[cost]
+input = 1.7553
+output = 1.7553
+cache_read = 1.7553
+cache_write = 1.7553
+
+[modalities]
+input = ["text"]
+output = ["text"]

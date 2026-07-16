@@ -1,0 +1,24 @@
+id = "text-standard"
+name = "Text Standard"
+status = "ga"
+release_date = "2026-01-15"
+last_updated = "2026-07-02"
+reasoning = false
+tool_call = false
+structured_output = true
+attachment = false
+
+[limit]
+context = 128000
+input = 120000
+output = 16000
+
+[cost]
+input = 0.03
+output = 0.03
+cache_read = 0.03
+cache_write = 0.03
+
+[modalities]
+input = ["text"]
+output = ["text"]

@@ -1,0 +1,24 @@
+id = "text-max"
+name = "Text Max"
+status = "ga"
+release_date = "2026-01-15"
+last_updated = "2026-07-02"
+reasoning = true
+tool_call = false
+structured_output = true
+attachment = false
+
+[limit]
+context = 1000000
+input = 922000
+output = 128000
+
+[cost]
+input = 1.68
+output = 1.68
+cache_read = 1.68
+cache_write = 1.68
+
+[modalities]
+input = ["text"]
+output = ["text"]
